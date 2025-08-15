@@ -4,3 +4,4 @@ docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=secret123 -e MYSQL_DATABASE=ur
 docker exec -it my-mysql mysql -u root -p
 docker stop my-mysql
 docker rm my-mysql
+use quit to get exit from mysql cmnd prmpt
