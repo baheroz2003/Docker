@@ -1,0 +1,6 @@
+docker pull mysql:latest
+to run sql container in my docker
+docker run --name my-mysql -e MYSQL_ROOT_PASSWORD=secret123 -e MYSQL_DATABASE=url_shortener -p 3306:3306 -d mysql:latest
+docker exec -it my-mysql mysql -u root -p
+docker stop my-mysql
+docker rm my-mysql
